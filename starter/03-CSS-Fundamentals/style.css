@@ -1,11 +1,11 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-    font-family: sans-serif;
+* {
+    
+}
+
+body {
     color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -119,3 +119,37 @@ a:active {
 }
 
 /* LVHA */
+
+/* 
+Declaration Priority list
+
+1. !impotant 
+2. Inline styles
+3. ID (#) Selectors
+4. Classes and Pseudo classes (.) Selectors
+5. Element selectors (p, div, li, etc)
+6. Universal selectors
+*/
+
+/* Resolving conflicts */
+
+/* #copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green !important;
+} */
+
+nav {
+    font-size: 18px;
+}
