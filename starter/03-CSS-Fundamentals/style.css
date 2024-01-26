@@ -87,6 +87,13 @@ li:last-child {
 
 /* Classes is a future way of coding HTML and CSS, this is why you generally want to use classes */
 
+.container {
+    width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
 .main-header {
     background-color: #f7f7f7;
     /* padding: 20px;
@@ -94,6 +101,7 @@ li:last-child {
     padding-right: 40px; */
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 
 nav {
@@ -112,6 +120,7 @@ aside {
     background-color: #f7f7f7;
     border: 5px solid #1098ad;
     padding: 50px 0;
+    width: 500px;
 }
 
 li:first-child {
@@ -183,3 +192,8 @@ Declaration Priority list
 footer p {
     color: green !important;
 } */
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
