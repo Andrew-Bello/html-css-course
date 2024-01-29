@@ -212,9 +212,9 @@ h1::first-letter {
     margin-right: 5px;
 } */
 
-h3 + p::first-line {
-    /* color: red; */
-}
+/* h3 + p::first-line {
+    color: red;
+} */
 
 h2 {
     /* background-color: orange; */
@@ -268,3 +268,5 @@ footer p {
 } */
 
 /* Don't use positioning for complex layout, save this for other methods, such as Grid and Flexbox. DON'T ABUSE ABSOLUTE POSITIONING. We use it for small things. It's not good to build responsive layouts. */
+
+/* Keep your selectors nice and simple. Keep the specificity low. */

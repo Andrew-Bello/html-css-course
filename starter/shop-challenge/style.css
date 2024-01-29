@@ -12,6 +12,7 @@ body {
     border: 5px solid black;
     width: 825px;
     margin: 50px auto;
+    position: relative;
 }
 
 .main header {
@@ -43,7 +44,8 @@ article p:nth-child(5) {
 }
 
 .more-info {
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-top: 4px;
 }
 
 .more-info:link, .more-info:visited {
@@ -86,4 +88,53 @@ article p:nth-child(5) {
 .btn:hover {
     background-color: #fff;
     color: black;
+}
+
+/* Sale Tag */
+
+.sale {
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    left: -25px;
+    top: -15px;
+    letter-spacing: 2px;
+}
+
+/* Color boxes */
+
+.color {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-top: 28px;
+    margin-right: 8px;
+}
+
+.black {
+    background-color: #000;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+.brown {
+    background-color: chocolate;
 }
